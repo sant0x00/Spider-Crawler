@@ -1,0 +1,22 @@
+{
+    "name": "jaraujoss/course-finder",
+    "description": "Project that searches for courses on the web",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "João Pedro Araújo",
+            "email": "santos0santos0@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "jaraujo\\Crawler\\": "src/"
+        }
+    }
+}
