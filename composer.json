@@ -1,6 +1,6 @@
 {
-    "name": "jaraujoss/course-finder",
-    "description": "Project that searches for courses on the web",
+    "name": "jaraujoss/web-crawler",
+    "description": "Project that searches for results on the web",
     "type": "library",
     "license": "MIT",
     "authors": [

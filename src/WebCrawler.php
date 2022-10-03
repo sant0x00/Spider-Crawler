@@ -27,12 +27,12 @@ class WebCrawler
 
         $elements = $this->crawler->filter("p.desc");
 
-        $courses = [];
+        $result = [];
 
         foreach ($elements as $element) {
-            $courses[] = $element->textContent;
+            $result[] = $element->textContent;
         }
 
-        return $courses;
+        return $result;
     }
 }

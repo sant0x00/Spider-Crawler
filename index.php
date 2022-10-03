@@ -10,8 +10,8 @@ $client = new Client(["base_uri" => "https://www.jw.org/pt/biblioteca/musica-can
 $crawler = new Crawler();
 
 $finder = new WebCrawler($client, $crawler);
-$courses = $finder->finder("clipes-musicais/");
+$results = $finder->finder("clipes-musicais/");
 
-foreach ($courses as $course) {
-    echo $course . PHP_EOL;
+foreach ($results as $result) {
+    echo $result . PHP_EOL;
 }
